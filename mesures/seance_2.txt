@@ -1,0 +1,12 @@
+Oscilloscope Lecroy waveAce 234
+Sonde de courant : TCPA300 : TCP312A 2x
+Sonde de tension : Testec 
+
+Mesures après bidouilles PI dans les commandes
+
+mat = scope('U_L1 U_L2 U_L3 Ud U_comm_ideal')
+figure;plot(mat(:,1));hold on;plot(mat(:,5))
+
+mat2 = scope('Ualpha Ubeta theta Ud Uq_var')
+
+captures scope 2 fois les mêmes avec U1_res, U1 et I1

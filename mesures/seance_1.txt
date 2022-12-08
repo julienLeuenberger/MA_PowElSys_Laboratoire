@@ -1,0 +1,31 @@
+une fc un anti et le bon ma
+Tension sur L3 et neutre flottant
+Courant entre résistance et inductance L3
+
+4 tests 
+
+MA : 
+
+
+
+Z = 22.109
+U = Z * i = 33.164
+Ma = 2*U/Ue = 0.603
+
+le tout 0000
+ta = 3, porteuse = 16k, ma = 0.603 0001
+ta = 3, porteuse = 5k, ma = 0.603 0002
+ta 5, porteuse 5k, 0003
+ta 5, portw 16k, 0004
+
+T000000 : ta 5, porteuse 16k
+T000001 : ta 5, porteuse 5k
+T000002 : ta 3, porteuse 5k
+T000003 ; ta 3, porteuse 16k
+
+
+CSV Branche 3 : T0000004
+
+4.5 16k : 0006.png / 6.csv  zoom :7.png 5.csv
+4.5 5k : 8.png / 7.csv   zoom : 9.png / 8.csv
+
